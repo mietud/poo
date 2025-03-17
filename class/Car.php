@@ -7,7 +7,7 @@
 abstract class Car {
     public $name;
     private $matricule;
-    
+
     // Constructeur
     public function __construct($name) {
       $this->name = $name;
