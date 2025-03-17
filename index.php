@@ -4,5 +4,7 @@
 
 $myCar = new Audi("Audi");
 
-echo $myclass->intro();
-$myclass->setMatricule("0001 AAA");
+echo $myCar->intro();
+$myCar->setMatricule("0001 AAA");
+
+
