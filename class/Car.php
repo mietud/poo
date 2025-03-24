@@ -16,7 +16,11 @@ abstract class Car {
     //Exemple methode abstraite.
     abstract public function intro() : string;
    
-    //Exemple methode concret.
+    /**
+    * Set matricule 
+    * @param string $matricule matricule
+    *
+    */
     public function setMatricule($matricule){
       $this->matricule = $matricule;
     }

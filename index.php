@@ -21,7 +21,7 @@ $etudiant = new Etudiant();
 echo "<br><strong>Custom Exception</strong>";
 echo "<br>";
 try{
-    $etudiant->setAge(-10);
+    $etudiant->setAge(10);
 }
 catch(AgeException $e){
     echo $e->getMessage();
